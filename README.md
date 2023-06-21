@@ -1,8 +1,8 @@
 # ENS-I
 The above codes are used as follows
 ## 1、Simulation & diagno
-Run the Simulation&diagno.cpp and use the hamster_1.txt file and beta_hum874_b.txt file to generate the simulation propagation file (State.txt) and diagnostic record (diagno.txt)
+To run this file as the first step, you need to input the network structure(hamster_1.txt),the propagation probability of the individual (beta_.txt) , the time length of the propagation, and the initial number of seeds.Then, run the Simulation&diagno.cpp to generate the simulation propagation file (State.txt) and observation record (diagno.txt) as outputs.
 ## 2、Inference
-Using the hamster_1.txt , beta_hum874_b.txt, and diagno.txt, given the appropriate range of parameters and run the infer.cpp to get infection probability data (infer.txt)
+Second, you need to input the network structure(hamster_1.txt),the propagation probability of the individual (beta_.txt) , observation record (diagno.txt), given the appropriate range of parameters (e.g. the number of samples,the upper and lower bounds of the probability of susceptible,the upper and lower bounds of the probability of propagation, a rational propagation probability range,the time length of the propagation) and run the infer.cpp to get infection probability data (infer.txt) as outputs.
 ## 3、DMP
-Using the hamster_1.txt ,beta_hum874_b.txt, and diagno.txt, given the appropriate range of parameters and run the DMP.cpp  to get infection probability data (DMP.txt)
+Third, you need to input the network structure(hamster_1.txt),the propagation probability of the individual (beta_.txt) , observation record (diagno.txt), given the appropriate range of parameters (e.g. the upper and lower bounds of the probability of propagation or a rational propagation probability range,the time length of the propagation) and run the DMP.cpp  to get infection probability data (DMP.txt) as outputs.
