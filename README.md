@@ -1,5 +1,5 @@
 # ENS-I
-The above code is used as follows
+The above codes are used as follows
 ## 1、Simulation & diagno
 Run the Simulation&diagno.cpp and use the hamster.txt file and beta.txt file to generate the simulation propagation file State.txt and diagnostic record diagno.txt
 ## 2、Inference
